@@ -25,7 +25,7 @@ body {
 .container {
     position: absolute;
     height: 400px;
-    width: 360px;
+    width: 320px;
     border: 2px solid gold;
     background: linear-gradient(green, greenyellow, transparent);
     display: grid;
