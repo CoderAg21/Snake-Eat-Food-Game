@@ -68,6 +68,10 @@ function handleTouchMove(evt) {
     if (!xDown || !yDown) {
         return;
     }
+    if(isSwiped){
+        anyKeySwipeToStart();
+        isSwiped = false;
+    }
 
     var xUp = evt.touches[0].clientX;
     var yUp = evt.touches[0].clientY;
