@@ -25,7 +25,7 @@ body {
 .container {
     position: absolute;
     height: 400px;
-    width: 320px;
+    width: 350px;
     border: 2px solid gold;
     background: linear-gradient(green, greenyellow, transparent);
     display: grid;
@@ -60,7 +60,7 @@ background-size: cover;
 }
 .howtostart{
     margin-top: -195px;
-    font-size: 1rem;
+    font-size: .9rem;
     position: absolute;
     color: black;
     font-weight: bold;
