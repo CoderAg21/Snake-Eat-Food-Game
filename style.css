@@ -50,7 +50,7 @@ body {
 
 }
 .food{
-background-image: url('food.png');
+background-image: url('food.svg');
 background-size: cover;
 }
 .score{
